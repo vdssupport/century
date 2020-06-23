@@ -51,12 +51,12 @@ header.header-page {
 }
 
 .header-page .buttons button {
-  background-color: #E05206;
+  background-color: #D2C295;
   color: #fff;
 }
 
 .header-page button {
-  background-color: #E05206;
+  background-color: #D2C295;
   color: #fff;
 }
 
@@ -74,7 +74,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #E05206;
+    background-color: #D2C295;
     color: #fff;
 }
 
@@ -96,7 +96,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #E05206;
+    background-color: #D2C295;
 }
 
 router-view .buttons button.primary:hover,
