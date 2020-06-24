@@ -47,11 +47,11 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #{{Color_1}};
+    border-bottom-color: #E05206;
 }
 
 .header-page .buttons button {
-  background-color: #{{Color_1}};
+  background-color: #E05206;
   color: #fff;
 }
 
@@ -64,7 +64,7 @@ header.header-page {
 .header-page .buttons button:focus 
 {
   background-color: #{{Color_2_Tint}};
-  color: #{{Color_1}};
+  color: #E05206;
 
   /* Alternative if the above doesn't look so great.
   background-color: #{{Color_2}};
@@ -74,7 +74,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #{{Color_1}};
+    background-color: #E05206;
     color: #fff;
 }
 
@@ -96,7 +96,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #{{Color_1}};
+    background-color: #E05206;
 }
 
 router-view .buttons button.primary:hover,
