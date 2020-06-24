@@ -1,8 +1,8 @@
 /*
 E05206: (don't include the '#')
 c94905: #c94905; (goto http://www.color-hex.com/color/E05206 ; use the second Shade -- just needs to be a little bit darker.)
-E05206: (don't include the '#')
-E05206: #E05206; (goto http://www.color-hex.com/color/E05206 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+e3631e: (don't include the '#')
+e3631e: #e3631e; (goto http://www.color-hex.com/color/e3631e ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png - //vdssupport.github.io//century/centurylogo.jpg
 */
 
@@ -27,16 +27,16 @@ header.header-main {
   background: url('//vdssupport.github.io//century/centurylogo.jpg') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
-  background-size: auto;
+  background-size: contain;
 }
 
 header.header-page {
-  background-color:#E05206;
+  background-color:#e3631e;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#E05206;
-  color: #E05206;
+  border-bottom-color:#e3631e;
+  color: #e3631e;
 }
 
 .header-page .tabs li a:hover,
@@ -56,18 +56,18 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #E05206;
+  background-color: #e3631e;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #E05206;
+  background-color: #e3631e;
   color: #E05206;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #E05206;
+  background-color: #e3631e;
   color: #fff;
    */
 }
@@ -84,12 +84,12 @@ header.header-page {
 }
 
 button {
-    background-color: #E05206;
+    background-color: #e3631e;
 }
 
 button:hover,
 button:focus {
-    background-color: #E05206;
+    background-color: #e3631e;
 }
 
 router-view .buttons button.primary,
@@ -114,7 +114,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #E05206;
+    color: #e3631e;
 }
 
 .user-info a:hover,
@@ -133,12 +133,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #E05206; /*default #007bff*/
+    color: #e3631e; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #E05206;
+    background: #e3631e;
 }
 
 .footer {
