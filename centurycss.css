@@ -1,8 +1,8 @@
 /*
 E05206: (don't include the '#')
 c94905: #c94905; (goto http://www.color-hex.com/color/E05206 ; use the second Shade -- just needs to be a little bit darker.)
-{{Color_2}}: (don't include the '#')
-{{Color_2_Tint}}: #{{Color_2_Tint}}; (goto http://www.color-hex.com/color/{{Color_2}} ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+e3631e: (don't include the '#')
+{{Color_2_Tint}}: #{{Color_2_Tint}}; (goto http://www.color-hex.com/color/e3631e ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png - //vdssupport.github.io//century/centurylogo.jpg
 */
 
@@ -27,15 +27,16 @@ header.header-main {
   background: url('//vdssupport.github.io//century/centurylogo.jpg') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
+  max-height: 200px !important;
   background-size: contain;
 }
 
 header.header-page {
-  background-color:#{{Color_2}};
+  background-color:#e3631e;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#{{Color_2}};
+  border-bottom-color:#e3631e;
   color: #{{Color_2_Tint}};
 }
 
@@ -56,7 +57,7 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #{{Color_2}};
+  background-color: #e3631e;
   color: #fff;
 }
 
@@ -67,7 +68,7 @@ header.header-page {
   color: #E05206;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #{{Color_2}};
+  background-color: #e3631e;
   color: #fff;
    */
 }
@@ -84,7 +85,7 @@ header.header-page {
 }
 
 button {
-    background-color: #{{Color_2}};
+    background-color: #e3631e;
 }
 
 button:hover,
