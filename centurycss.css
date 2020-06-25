@@ -26,8 +26,8 @@ header.header-main {
 .logo {
   background: url('//vdssupport.github.io//century/centurylogo.jpg') top center no-repeat;
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  max-width: 600px !important;
+  background-size: contain;
   
 }
 
